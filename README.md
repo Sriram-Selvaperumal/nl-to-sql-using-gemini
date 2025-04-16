@@ -15,18 +15,11 @@ This project converts natural human language questions into SQL queries using **
 
 ---
 
-## 🖼️ Demo
-
-> *(Insert screenshot or screen recording of your UI here)*
-
----
-
 ## ⚙️ Tech Stack
 
-- **Frontend**: HTML / React / Streamlit *(your choice)*
+- **Frontend**: Streamlit
 - **Backend**: Python
 - **LLM**: Gemini Pro API (via `google.generativeai`)
-- **Database**: Any (MySQL, PostgreSQL, SQLite, etc.)
 
 ---
 
