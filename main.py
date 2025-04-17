@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 
-genai.configure(api_key="*******API_KEY*******")
+genai.configure(api_key="*******API-KEY*******")
 
 # Create the model
 generation_config = {
@@ -32,6 +32,6 @@ def GenerateResponse(input_text):
 
     return response.text
 
-while True:
-    string = str(input("Enter the Prompt: "))
-    print(GenerateResponse(string))
+#while True:
+ #   string = str(input("Enter the Prompt: "))
+  #  print(GenerateResponse(string)) (if not using frontend)
