@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 genai.configure(api_key="*******API-KEY*******")
 
-# Create the model
+
 generation_config = {
   "temperature": 1,
   "top_p": 0.95,
